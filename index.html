@@ -7,25 +7,31 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="C:\Users\adam1\unit-4-game\assets\css\style.css">
     <script>
-            $(document).ready(function(){
-               $(".bg").css("background-image", "url('http://images5.fanpop.com/image/photos/28800000/hogwarts-harry-potter-28869061-1920-1081.jpg')");
-            });
-            </script>
-            </head>
-            <body class="bg">
-                <h1>Crystals Game!</h1>
-                <p id="welcome">Welcome! You will be given a random number at the start of the game. There are four crystals below. By clicking on 
-                    a crystal you will add a specific amount of points to your total score. You win the game by matching your total score 
-                    to random number, you lose the game if your total score goes above the random number. The value of each crystal is hidden
-                    from you until you click on it. Each time when the game starts, the game will change the values of each crystal. Good luck!
-                </p>
-    <p id="result"></p>
+        $(document).ready(function () {
+            $(".bg").css("background-image", "url('http://images5.fanpop.com/image/photos/28800000/hogwarts-harry-potter-28869061-1920-1081.jpg')");
+        });
+    </script>
+</head>
+
+<body class="bg">
+    <h1>Crystals Game!</h1>
+    <p id="welcome">Welcome! You will be given a random number at the start of the game. There are four crystals below.
+        By clicking on
+        a crystal you will add a specific amount of points to your total score. You win the game by matching your total
+        score
+        to random number, you lose the game if your total score goes above the random number. The value of each crystal
+        is hidden
+        from you until you click on it. Each time when the game starts, the game will change the values of each
+        crystal. Good luck!
+    </p>
+    <p id="target"></p>
 
     <div class="crystals">
     </div>
-
+    <p id="previous"></p>
     <p id="win"></p>
     <p id="loss"></p>
+
 
     <script type="text/javascript" src="C:\Users\adam1\unit-4-game\assets\javascript\game.js"></script>
 
